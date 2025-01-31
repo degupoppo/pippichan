@@ -1,0 +1,149 @@
+
+<!doctype html>
+<html lang="en">
+
+
+<script src="lib/web3.min.js"></script>
+<script src="lib/progressbar.min.js"></script>
+<script src="src/js/contracts.js"></script>
+<script src="src/js/share.js"></script>
+<script src="src/js/index.js"></script>
+<script src="lib/keccak256.js"></script>
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+
+    <title>Project Pippichan</title>
+    <meta name="description" content="Pippi-chan is a virtual pet that lives in your wallet on Astar Network." />
+    <link rel="stylesheet" href="src/css/simple2.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="icon" href="src/png/favicon.png" />
+    <link rel="apple-touch-icon" href="src/png/favicon.png">
+
+    <meta property="og:title" content="Project of Pippi-chan">
+    <meta property="og:image" content="src/png/favicon.png">
+    <meta property="og:url" content="https://pippichan.com/">
+    <meta property="og:description" content="Pippi-chan is a virtual pet that lives in your wallet on Astar Network.">
+
+    <!---twitter card--->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Project of Pippi-chan" />
+    <meta name="twitter:description" content="Pippi-chan is a virtual pet that lives in your wallet on Astar Network." />
+    <meta name="twitter:image" content="https://pippichan.com/src/png/opening_logo.jpg" />
+
+    <!-- twemoji -->
+    <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P69YXYZQ96"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-P69YXYZQ96');</script>
+
+    
+    <!--- scroll up button --->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css"><link rel="stylesheet" href="src/css/scrollup.css"><div id="page_top"><a href="#"></a></div>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <nav>
+    <a href="index.html"  class="current"><b>&#127969; Home</b></a>
+    <a href="gauge.html" ><b>&#x2764; Play</b></a>
+    &nbsp;<span id="button_connect"><button onclick="init_web3();" style="width:110px;">Connect</button></span>
+    </nav>
+
+
+    <!--- header --->
+
+    <h1>
+
+    <p class="vertical-middle">
+    [logo]
+    &nbsp;
+    </p>
+
+    </h1>
+
+    <p id="top_p">
+    <center>
+    <br>
+    Pippichan is a virtual pet <br class="br-sp">that lives in your wallet on <a href="https://astar.network/">Astar Network</a>.<br><br class="br-sp">
+    Their growth depends on your dedication <br class="br-sp">and time.
+    </center>
+    </p>
+
+    <canvas id="top_animation" width=0 height=64></canvas>
+</header>
+
+
+<main>
+
+
+<!-- welcome message -->
+<br>
+<center><code class="language-plaintext highlighter-rouge">
+[Welcome message]<br>
+</code></center>
+<br>
+
+
+
+
+<br>
+
+
+<!--- What's This? --->
+
+<h3 id="whats_this">What's This? &#127808;</h3>
+
+<p>
+...<br>
+</p>
+
+
+
+<br>
+
+
+
+<!--- Concept --->
+
+<h3 id="concept">The Main Concept &#127800;</h3>
+
+<p>
+...
+</p>
+
+</ul>
+
+
+</main>
+
+
+<!--- Footer--->
+
+<footer class="footer">
+<p><font size="-2"><b>Donations: </b></font><font size="-2" color="blue"><a href="https://blockscout.com/astar/address/0xB688651CdAF260E5943FE03240E63783A9C0ffee" style="text-decoration:none;" target="_blank">0xb688651cdaf260e5943fe03240e63783a9<b><font color="brown">c0ffee</font></b>&nbsp;&#x2615;</a></font></p>
+<p>&nbsp;</p>
+<p>(C) 2025 Project of Pippi-chan.</p>
+<p>Contact: info.pippichan (at) gmail.com</p>
+</footer>
+
+
+</body>
+
+<script>
+    twemoji.parse(document.body);
+    check_connected();
+</script>
+
+</html>
+
